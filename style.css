@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("images/Logo projet.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #050505;
+
+    position: relative;
+}
+
+.petite-image {
+    position: absolute;
+
+    width: 100px;
+    height: auto;
+
+    bottom: 30px;
+    left: 100px;
+}
